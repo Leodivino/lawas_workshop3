@@ -37,7 +37,6 @@ $result = check($computer, $human);
 <div class="container">
 
 <h1><font color="red">Rock Paper Scissors game</red></h1>
-<img src="download.png" alt="Mountain View"> 
 <?php
 if ( isset($_REQUEST['name']) ) {
     echo "<p>Welcome: ";
@@ -57,7 +56,6 @@ if ( isset($_REQUEST['name']) ) {
 <input type="submit" value="Play">
 <input type="submit" name="logout" value="Logout">
 </form>
-<img src="hand.gif" alt="Mountain View"> 
 <pre>
 <?php
 if ( $human == -1 ) {
