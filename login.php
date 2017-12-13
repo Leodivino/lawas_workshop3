@@ -29,7 +29,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>PRS Login Page</title>
+<title>Lawas_Login Page</title>
 </head>
 <body>
     <center>
